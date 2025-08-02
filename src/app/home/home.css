@@ -1,0 +1,29 @@
+.home-section {
+    background-color: #1abc9c;
+    height: 97vh;
+}
+
+img {
+    width: 100%;
+    width: 250px;
+
+}
+
+.hero {
+    width: 45%;
+}
+
+h1 {
+    font-family: var(--main-font);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+i{
+    color: white;
+    padding: 0px 16px;
+}
+.line{
+    height: 4px;
+    width: 80px;
+}

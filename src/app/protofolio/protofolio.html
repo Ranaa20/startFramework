@@ -1,0 +1,24 @@
+<div class="portfolio-section py-5 text-center">
+  <h2 class="text-uppercase fw-bold">Portfolio Component</h2>
+  <div class="d-flex justify-content-center align-items-center my-3">
+    <div class="line bg-dark"></div>
+    <i class="bi bi-star-fill px-3 fs-5 text-dark"></i>
+    <div class="line bg-dark"></div>
+  </div>
+ <div class="container">
+    <div class="row g-4">
+  @for (item of portfolioItems; track $index) {
+<div class="col-lg-4 col-md-6">
+        <div class="portfolio-item rounded-3 overflow-hidden hover-overlay">
+          <img [src]="item.img" class="w-100 h-100 object-fit-cover" alt="portfolio item">
+          <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="bi bi-plus text-white"></i>
+          </div>
+        </div>
+      </div>
+  }
+ 
+      
+    </div>
+  </div>
+</div>
